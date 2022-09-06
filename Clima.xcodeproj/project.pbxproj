@@ -16,6 +16,7 @@
 		ADAA27CE231BC87F00365194 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ADAA27CD231BC87F00365194 /* README.md */; };
 		B34EA90028C67C9100E717DF /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34EA8FF28C67C9100E717DF /* WeatherManager.swift */; };
 		B34EA90228C698DE00E717DF /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34EA90128C698DE00E717DF /* WeatherData.swift */; };
+		B34EA90428C6CC0D00E717DF /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34EA90328C6CC0D00E717DF /* WeatherModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		ADAA27CD231BC87F00365194 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B34EA8FF28C67C9100E717DF /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = SOURCE_ROOT; };
 		B34EA90128C698DE00E717DF /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = SOURCE_ROOT; };
+		B34EA90328C6CC0D00E717DF /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				B34EA8FF28C67C9100E717DF /* WeatherManager.swift */,
 				B34EA90128C698DE00E717DF /* WeatherData.swift */,
+				B34EA90328C6CC0D00E717DF /* WeatherModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 				B34EA90228C698DE00E717DF /* WeatherData.swift in Sources */,
 				ADAA27B1231BBFAF00365194 /* AppDelegate.swift in Sources */,
 				B34EA90028C67C9100E717DF /* WeatherManager.swift in Sources */,
+				B34EA90428C6CC0D00E717DF /* WeatherModel.swift in Sources */,
 				ADAA27B3231BBFAF00365194 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

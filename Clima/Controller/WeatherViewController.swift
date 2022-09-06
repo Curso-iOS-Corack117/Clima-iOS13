@@ -47,5 +47,9 @@ class WeatherViewController: UIViewController, UITextFieldDelegate {
         }
         textField.text = ""
     }
+    
+    func didUpdateWeather(weather: WeatherModel) {
+        
+    }
 }
 
